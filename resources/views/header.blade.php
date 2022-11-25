@@ -2,18 +2,13 @@
     <div class="flex flex-row gap-10">
     <a 
          class="bg-blue-200 hover:bg-blue-400 px-4 py-2 rounded-md" 
-         href=""
-    >Halaman 1
+         href="/"
+    >Konten
     </a>
     <a 
          class="bg-blue-200 hover:bg-blue-400 px-4 py-2 rounded-md" 
-         href=""
-    >Halaman 2
-    </a>
-    <a 
-         class="bg-blue-200 hover:bg-blue-400 px-4 py-2 rounded-md" 
-         href=""
-    >Halaman 3
+         href="{{ route('crud.index') }}"
+    >CRUD
     </a>
 </div>
 </div>
